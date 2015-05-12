@@ -1,0 +1,17 @@
+<html>
+<body>
+<ul>
+  <form action="/" method="POST">
+    <% pictures.each do |pic| %>
+  <li>
+  <img src="<%= pic %>">
+    <input type="checkbox" name="<%= pic %>" value="<%= pic %>"> 
+  </li>
+  <% end %>
+  <button>Save photos</button>
+  </form>
+
+  </li>
+</ul>
+</body>
+</html>

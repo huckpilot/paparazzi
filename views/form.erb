@@ -1,0 +1,18 @@
+<html>
+<body>
+  <form action="/tags" method="GET">
+    <input type="text" name="tag">
+    <button>Search tag</button>
+  </form>
+  <br>
+  <% pictures.each do |pic| %>
+  <li>
+  <img src="<%= pic[0] %>"> 
+  </li>
+  <% end %>
+  
+  
+
+  </li>
+</body>
+</html>
